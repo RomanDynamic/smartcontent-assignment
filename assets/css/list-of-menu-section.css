@@ -1,0 +1,31 @@
+.list-of-menu-section .section-body {
+  align-items: center;
+}
+.list-of-menu-section .image-section {
+  width: 30%;
+  height: 400px;
+  background: url("/assets//images/bg-list-of-menu.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid white;
+}
+
+.list-of-menu-section .card-section {
+  width: 70%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .list-of-menu-section .inner-container {
+    flex-direction: column;
+    padding: 0;
+  }
+  .list-of-menu-section .image-section {
+    display: none;
+  }
+  .list-of-menu-section .card-section {
+    width: 100%;
+  }
+}
